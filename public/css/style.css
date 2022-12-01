@@ -4,5 +4,14 @@ body{
 
 h2{
     font-size: x-large;
+    
+}
+.exo1{
+    border-bottom: 5px solid red;
+}
+.exo2{
+    border-bottom: 5px solid red;
+}
+.exo3{
     border-bottom: 5px solid red;
 }
