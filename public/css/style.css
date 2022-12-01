@@ -4,14 +4,27 @@ body{
 
 h2{
     font-size: x-large;
-    
+    margin-bottom: 0;
 }
 .exo1{
     border-bottom: 5px solid red;
+    width: 0%;
+    transition: 2s;
+
 }
 .exo2{
     border-bottom: 5px solid red;
+    width: 0%;
 }
 .exo3{
     border-bottom: 5px solid red;
+    width: 0%;
+}
+.exo1::before{
+    width: 0%;
+
+}
+.exo1::before:hover{
+    border-bottom: 5px solid red;
+    width: 100%;
 }
